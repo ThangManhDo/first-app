@@ -30,6 +30,10 @@ class App extends React.Component{
   render(){
     return(
       <div>
+        <h1>{this.state.header}</h1>
+        <h2>{this.state.content}</h2>
+      </div>
+      <div>
         <Header />
         <table>
           <tbody>
